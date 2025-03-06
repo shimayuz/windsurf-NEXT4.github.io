@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Windsurf 新機能アップデート - グラフィックレコーディング</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Kaisei+Decol:wght@400;500;700&family=Yomogi&family=Zen+Kurenaido&display=swap');
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="header-left">
+                <h1 class="gradient-title">
+                    <i class="fa-solid fa-wind fa-bounce"></i> 
+                    Windsurf 新機能アップデート
+                </h1>
+                <p class="subtitle">最新の開発者体験を提供する機能強化</p>
+            </div>
+            <div class="header-right">
+                <p class="date">2025年3月6日</p>
+                <p class="source">出典: Windsurf 公式情報</p>
+            </div>
+        </header>
+
+        <div class="content">
+            <!-- 左カラム -->
+            <div class="column">
+                <div class="card">
+                    <div class="section-title">
+                        <i class="fa-solid fa-desktop fa-shake"></i> Windsurf プレビュー (ベータ)
+                    </div>
+                    <div class="card-content">
+                        <div class="feature-icon"><i class="fa-solid fa-globe fa-spin"></i></div>
+                        <div class="feature-text">
+                            <p><span class="highlight">ローカルWebサイト</span>をIDE内または<span class="marker">ブラウザで直接プレビュー</span>できるように！</p>
+                            <ul class="hand-drawn-list">
+                                <li><i class="fa-solid fa-hand-point-right"></i> ReactやHTML要素を選択してCascadeに<span class="underline">コンテキストとして送信</span>可能</li>
+                                <li><i class="fa-solid fa-hand-point-right"></i> スクリーンショットやコピペ不要に</li>
+                                <li><i class="fa-solid fa-hand-point-right"></i> コンソールエラーも送信可能</li>
+                            </ul>
+                            <div class="note">
+                                <p><i class="fa-solid fa-lightbulb fa-beat-fade"></i> 起動方法：Cascadeに依頼するか、会話入力欄上のツールバーから</p>
+                                <p><i class="fa-solid fa-check-circle"></i> すべてのプランで利用可能・クレジット消費なし</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="section-title">
+                        <i class="fa-solid fa-broom fa-shake"></i> Cascade 自動リンター
+                    </div>
+                    <div class="card-content">
+                        <div class="feature-icon"><i class="fa-solid fa-code fa-flip"></i></div>
+                        <div class="feature-text">
+                            <p>Cascadeが<span class="highlight">提案したコード変更を自動的にリント</span>し、エラーを修正！</p>
+                            <div class="example-box">
+                                <p class="example-title"><i class="fa-solid fa-lightbulb"></i> 例：</p>
+                                <p>Cascadeが4つのリントエラーを作成した場合、<span class="marker">クレジット消費なし</span>で自動修正</p>
+                            </div>
+                            <div class="note">
+                                <p><i class="fa-solid fa-info-circle fa-beat"></i> 免責事項：LLMがリント修正のみの場合とクレジット消費の判断を行います</p>
+                                <p><i class="fa-solid fa-check-circle"></i> すべてのプランで利用可能・設定からオフにも可能</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="section-title">
+                        <i class="fa-solid fa-server fa-shake"></i> 新MCP サーバー統合
+                    </div>
+                    <div class="card-content">
+                        <div class="feature-icon"><i class="fa-solid fa-plug fa-beat"></i></div>
+                        <div class="feature-text">
+                            <p>Cascadeが<span class="highlight">信頼済みMCPサーバーへのツール呼び出し</span>をサポート！</p>
+                            <ul class="hand-drawn-list">
+                                <li><i class="fa-solid fa-arrow-right"></i> 新しいWindsurf設定ページで一般的なMCPサーバーリストを確認可能</li>
+                                <li><i class="fa-solid fa-arrow-right"></i> 追加・設定が簡単になった新UX</li>
+                                <li><i class="fa-solid fa-arrow-right"></i> 設定ページからユーザー設定可能なJSONも利用可能</li>
+                            </ul>
+                            <div class="note">
+                                <p><i class="fa-solid fa-crown"></i> ProおよびPro Ultimateプランで利用可能</p>
+                                <p><i class="fa-solid fa-clock fa-spin"></i> Teams/Enterpriseプランへの対応は近日中</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 中央カラム -->
+            <div class="column">
+                <div class="card">
+                    <div class="section-title">
+                        <i class="fa-solid fa-file-import fa-shake"></i> タブでインポート
+                    </div>
+                    <div class="card-content">
+                        <div class="feature-icon"><i class="fa-solid fa-keyboard fa-bounce"></i></div>
+                        <div class="feature-text">
+                            <p>コード入力時に<span class="highlight">必要な依存関係のインポート</span>をインライン提案！</p>
+                            <div class="example-box">
+                                <p><i class="fa-solid fa-keyboard"></i> <span class="marker">Tabキー</span>で自動補完と同じように提案を受け入れ可能</p>
+                            </div>
+                            <div class="note">
+                                <p><i class="fa-solid fa-check-circle"></i> すべてのプランで利用可能</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="section-title">
+                        <i class="fa-solid fa-lightbulb fa-shake"></i> 提案アクション
+                    </div>
+                    <div class="card-content">
+                        <div class="feature-icon"><i class="fa-solid fa-list-check fa-flip"></i></div>
+                        <div class="feature-text">
+                            <p>Cascadeが<span class="highlight">タスク完了をサポートする提案アクション</span>を提供！</p>
+                            <div class="example-box">
+                                <p>Cascadeが質問や次のステップを提案した場合、<span class="marker">提案アクション</span>から選択可能</p>
+                            </div>
+                            <div class="note">
+                                <p><i class="fa-solid fa-check-circle"></i> すべてのプランで利用可能</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="section-title">
+                        <i class="fa-solid fa-file-arrow-down fa-shake"></i> ドラッグ＆ドロップでコンテキスト追加
+                    </div>
+                    <div class="card-content">
+                        <div class="feature-icon"><i class="fa-solid fa-hand-pointer fa-bounce"></i></div>
+                        <div class="feature-text">
+                            <p>ファイルエクスプローラーから<span class="highlight">ファイルをドラッグ＆ドロップ</span>してCascadeにコンテキストとして追加可能に！</p>
+                            <div class="note">
+                                <p><i class="fa-solid fa-file-circle-check"></i> すべてのシステムファイルタイプで動作</p>
+                                <p><i class="fa-solid fa-check-circle"></i> すべてのプランで利用可能</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="section-title">
+                        <i class="fa-solid fa-sliders fa-shake"></i> モデルオプション管理者制御
+                    </div>
+                    <div class="card-content">
+                        <div class="feature-icon"><i class="fa-solid fa-users-gear fa-flip"></i></div>
+                        <div class="feature-text">
+                            <p>Teams/Enterpriseプランの管理者が<span class="highlight">チームで利用可能なモデルを選択</span>可能に！</p>
+                            <div class="note">
+                                <p><i class="fa-solid fa-user-group"></i> チームメンバーは管理者が有効化したモデルのみ表示</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 右カラム -->
+            <div class="column">
+                <div class="card">
+                    <div class="section-title">
+                        <i class="fa-solid fa-robot fa-shake"></i> Claude Sonnet 3.7の改善
+                    </div>
+                    <div class="card-content">
+                        <div class="feature-icon"><i class="fa-solid fa-microchip fa-spin"></i></div>
+                        <div class="feature-text">
+                            <p><span class="highlight">Claude Sonnet 3.7</span>がコマンドドロップダウンの新モデルとして利用可能に！</p>
+                            <div class="note">
+                                <p><i class="fa-solid fa-arrow-trend-up"></i> ツール呼び出しとフローアクションに関するパフォーマンスと品質が向上</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="section-title">
+                        <i class="fa-brands fa-windows fa-shake"></i> Windows ARM対応
+                    </div>
+                    <div class="card-content">
+                        <div class="feature-icon"><i class="fa-solid fa-laptop-code fa-beat"></i></div>
+                        <div class="feature-text">
+                            <p>Windsurfの<span class="highlight">Windows ARM向けベータサポート</span>が開始！</p>
+                            <div class="note">
+                                <p><i class="fa-solid fa-comment-dots"></i> フィードバックはcodeium.com/supportまで</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card glass-card">
+                    <div class="section-title">
+                        <i class="fa-solid fa-ellipsis fa-shake"></i> その他の改善点
+                    </div>
+                    <div class="card-content">
+                        <div class="feature-icon"><i class="fa-solid fa-sparkles fa-flip"></i></div>
+                        <div class="feature-text">
+                            <ul class="hand-drawn-list">
+                                <li><i class="fa-solid fa-check"></i> <span class="highlight">新しいクイック設定パネルUI</span>と詳細設定ビュー</li>
+                                <li><i class="fa-solid fa-check"></i> Cascadeが<span class="marker">.gitignoreファイル</span>にアクセスする設定</li>
+                                <li><i class="fa-solid fa-check"></i> 製品内ユーザー紹介サポート</li>
+                                <li><i class="fa-solid fa-check"></i> <span class="highlight">Windsurfディレクトリ</span> - Cascadeの理解を深めるためのルール例集</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="windsurf-mascot">
+                    <div class="mascot-bubble">
+                        <p>すべての新機能を試してみてください！ 🚀</p>
+                    </div>
+                    <div class="mascot-image">
+                        <i class="fa-solid fa-sailboat fa-bounce"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <p>© 2025 Windsurf by Codeium - グラフィックレコーディング風インフォグラフィック</p>
+            <p class="small">このインフォグラフィックは情報提供のみを目的としています。詳細は公式ドキュメントをご確認ください。</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
